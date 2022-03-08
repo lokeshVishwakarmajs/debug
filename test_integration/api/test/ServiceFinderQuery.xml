@@ -1,0 +1,28 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/" xmlns:sapi="http://schemas.datacontract.org/2004/07/SAPI.Entities.Admin">
+   <soap:Header/>
+   <soap:Body>
+      <tem:GetServicesforPincode>
+         <!--Optional:-->
+         <tem:pinCode>462023</tem:pinCode>
+         <!--Optional:-->
+         <tem:profile>
+            <!--Optional:-->
+            <sapi:Api_type>?</sapi:Api_type>
+            <!--Optional:-->
+            <sapi:Area>?</sapi:Area>
+            <!--Optional:-->
+            <sapi:Customercode>?</sapi:Customercode>
+            <!--Optional:-->
+            <sapi:IsAdmin>?</sapi:IsAdmin>
+            <!--Optional:-->
+            <sapi:LicenceKey>6simstgstkqqjf7fqftlshnfpsjqvfji</sapi:LicenceKey>
+            <!--Optional:-->
+            <sapi:LoginID>BOM81308</sapi:LoginID>
+            <!--Optional:-->
+            <sapi:Password>?</sapi:Password>
+            <!--Optional:-->
+            <sapi:Version>1.9</sapi:Version>
+         </tem:profile>
+      </tem:GetServicesforPincode>
+   </soap:Body>
+</soap:Envelope>
