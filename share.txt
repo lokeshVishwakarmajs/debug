@@ -1,4 +1,4 @@
-u can ignore this xml updates
+can ignore this xml updates
 <sapi:LicenceKey>6simstgstkqqjf7fqftlshnfpsjqvfji</sapi:LicenceKey>
 <!--Optional:-->
 <sapi:LoginID>BOM81308</sapi:LoginID><sapi:Version>1.9</sapi:Version>
