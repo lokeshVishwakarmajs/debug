@@ -17,3 +17,20 @@ Content-Length: 1227
 Host: netconnect.bluedart.com
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.5 (Java/16.0.1)
+
+example help 
+https://github.com/officer-rosmarino/node-soap-example
+
+changes working w3school
+const url = 'https://www.w3schools.com/xml/tempconvert.asmx';
+        const sampleHeaders = {
+            'Content-Type': 'text/xml',
+        };
+
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Body>
+    <FahrenheitToCelsius xmlns="https://www.w3schools.com/xml/">
+      <Fahrenheit>75</Fahrenheit>
+    </FahrenheitToCelsius>
+  </soap12:Body>
+</soap12:Envelope>
