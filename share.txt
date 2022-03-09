@@ -6,3 +6,11 @@ http://netconnect.bluedart.com/Ver1.9/Demo/ShippingAPI/Finder/ServiceFinderQuery
 
 
 https://netconnect.bluedart.com/Ver1.10/ShippingAPI/Finder/ServiceFinderQuery.svc?wsdl
+
+POST http://netconnect.bluedart.com/Ver1.9/Demo/ShippingAPI/Finder/ServiceFinderQuery.svc HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/soap+xml;charset=UTF-8;action="http://tempuri.org/IServiceFinderQuery/GetServicesforPincode"
+Content-Length: 1227
+Host: netconnect.bluedart.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.5 (Java/16.0.1)
