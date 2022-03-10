@@ -5,9 +5,10 @@ const path = require("path");
 
 router.get("/ourendpoint", async(req, res) => {
     try {
-        const url = 'https1://netconnect.bluedart.com/Ver1.9/Demo/ShippingAPI/Finder/ServiceFinderQuery.svc';
+        const url = 'https://netconnect.bluedart.com/Ver1.9/Demo/ShippingAPI/Finder/ServiceFinderQuery.svc';
         const sampleHeaders = {
-            'Content-Type': 'text/xml;charset=UTF-8',
+            'Content-Type': 'application/soap+xml;charset=UTF-8',
+            'SOAPAction': 'http://tempuri.org/IServiceFinderQuery/GetServicesforPincode'
         };
         const xml = fs.readFileSync(path.join(__dirname, 'test/ServiceFinderQuery.xml'), 'utf-8');
         const { response } = await soapRequest({ url: url, headers: sampleHeaders, xml: xml });
