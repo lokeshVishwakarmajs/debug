@@ -34,3 +34,6 @@ const url = 'https://www.w3schools.com/xml/tempconvert.asmx';
     </FahrenheitToCelsius>
   </soap12:Body>
 </soap12:Envelope>
+
+-------------
+https://social.msdn.microsoft.com/Forums/vstudio/en-US/ed32328d-e3ad-47dd-bcb0-3db9e6205f9c/actionmismatchaddressingexception?forum=wcf
