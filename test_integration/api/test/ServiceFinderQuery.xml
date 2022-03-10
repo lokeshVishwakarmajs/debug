@@ -1,5 +1,7 @@
 <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/" xmlns:sapi="http://schemas.datacontract.org/2004/07/SAPI.Entities.Admin">
-   <soap:Header/>
+   <soap:Header>
+         <wsa:Action xmlns:wsa ="http://www.w3.org/2005/08/addressing">http://tempuri.org/IServiceFinderQuery/GetServicesforPincode</wsa:Action>
+    </soap:Header>
    <soap:Body>
       <tem:GetServicesforPincode>
          <!--Optional:-->
